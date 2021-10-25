@@ -1,6 +1,6 @@
-package com.dy.springboot.aop.service;
+package com.github.rudysysu.springboot.aspects.service;
 
-import com.dy.springboot.aop.annotation.DataSourceChange;
+import com.github.rudysysu.springboot.aspects.annotation.DataSourceChange;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

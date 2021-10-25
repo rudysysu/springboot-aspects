@@ -1,6 +1,6 @@
-package com.dy.springboot.aop.aspect;
+package com.github.rudysysu.springboot.aspects.aspect;
 
-import com.dy.springboot.aop.annotation.DataSourceChange;
+import com.github.rudysysu.springboot.aspects.annotation.DataSourceChange;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 public class DataSourceAspect {
     private static final Logger LOG = LoggerFactory.getLogger(DataSourceAspect.class);
 
-    @Pointcut(value = "@annotation(com.dy.springboot.aop.annotation.DataSourceChange)")
+    @Pointcut(value = "@annotation(com.github.rudysysu.springboot.aspects.annotation.DataSourceChange)")
     private void changeDS() {
     }
 

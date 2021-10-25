@@ -1,6 +1,6 @@
-package com.dy.springboot.aop;
+package com.github.rudysysu.springboot.aspects;
 
-import com.dy.springboot.aop.service.MyService;
+import com.github.rudysysu.springboot.aspects.service.MyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

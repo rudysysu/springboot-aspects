@@ -1,4 +1,4 @@
-package com.dy.springboot.aop.annotation;
+package com.github.rudysysu.springboot.aspects.annotation;
 
 import java.lang.annotation.*;
 
